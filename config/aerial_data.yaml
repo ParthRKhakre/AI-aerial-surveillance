@@ -1,0 +1,15 @@
+# Replace paths with your prepared YOLO dataset directories
+path: data/processed
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: person
+  1: car
+  2: truck
+  3: bus
+  4: bicycle
+  5: motorcycle
+  6: van
+  7: building
